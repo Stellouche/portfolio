@@ -6,7 +6,7 @@ import petalsImage from "../../public/images/decorations/decoration-petals.png";
 import type { Artwork, PublicLink } from "@/types/portfolio";
 
 export const portfolio = {
-  title: "Midnight Sakura",
+  title: "Developer Portfolio",
   name: "Stella P.",
   role: "Software Developer",
   introduction: "I develop and improve business applications, with a focus on scalable, reliable and user-friendly solutions.",

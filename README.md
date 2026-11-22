@@ -1,6 +1,6 @@
-# Midnight Sakura
+# Developer Portfolio
 
-A bilingual portfolio for Stella Petrescu, software developer. It presents her professional experience, technical skills, the DataLens project and ways to get in touch.
+Personal bilingual portfolio showcasing my experience, technical skills and software development projects.
 
 ## Stack and prerequisites
 
