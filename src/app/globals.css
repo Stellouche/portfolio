@@ -354,6 +354,7 @@ ul, ol { padding: 0; list-style: none; }
 .project-card-heading h3 { font-size: 1rem; font-weight: 700; }
 .project-summary > p { color: var(--muted); }
 .project-arrow { flex: none; color: var(--accent); }
+.project-card-actions { display: flex; flex-wrap: wrap; gap: .5rem; }
 
 .project-page {
   width: min(100%, 1300px);

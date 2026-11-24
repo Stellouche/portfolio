@@ -3,6 +3,27 @@ import home from "../../public/images/projects/datalens/home.png";
 import before from "../../public/images/projects/datalens/analysis-before.png";
 import preview from "../../public/images/projects/datalens/cleaning-preview.png";
 import after from "../../public/images/projects/datalens/analysis-after.png";
+import dashboard from "../../public/images/projects/opsboard/dashboard.png";
+
+export const opsBoard = {
+  title: "OpsBoard",
+  repository: "https://github.com/Stellouche/opsboard",
+  demo: "https://opsboard-nu.vercel.app/",
+  screenshot: dashboard,
+  featuredTools: ["Vue 3", "TypeScript", "Vite", "IndexedDB"],
+  copy: {
+    en: {
+      summary: "An operations management demo for tracking requests, assigning them to teams and monitoring workloads. The bilingual interface includes light and dark themes, and data is stored locally in the browser.",
+      screenshotAlt: "OpsBoard dashboard in dark mode",
+      demoLabel: "Live Demo",
+    },
+    fr: {
+      summary: "Une application de démonstration pour suivre les demandes opérationnelles, les attribuer aux équipes et visualiser leur charge de travail. L’interface bilingue propose deux thèmes et conserve les données dans le navigateur.",
+      screenshotAlt: "Tableau de bord OpsBoard en mode sombre",
+      demoLabel: "Démo en ligne",
+    },
+  },
+} as const;
 
 export const projectLabels = {
   en: {
